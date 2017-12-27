@@ -51,7 +51,7 @@ public class VIP {
         vip = new VIP();
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入消费金额");
-        double y = scanner.nextInt();
+        double y = scanner.nextDouble();
         System.out.println("白银会员请输入1");
         System.out.println("黄金会员请输入2");
         System.out.println("铂金会员请输入3");
